@@ -1,0 +1,16 @@
+# Runtime artifacts (per-video data)
+sentences.json
+sentences_buffered.json
+sentences_final.json
+translations.json
+out.md
+video_config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+Thumbs.db

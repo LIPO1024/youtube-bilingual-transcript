@@ -1,0 +1,28 @@
+{
+  "video_id": "YOUR_VIDEO_ID",
+  "title": "Video Title",
+  "author": "Author Name",
+  "published": "2026-01-01",
+  "clips_source": "Clippings/Original Clip.md",
+  "output_name": "Video Title - 双语对照.md",
+  "tags": ["#翻译", "#双语字幕"],
+  "speaker_info": [
+    "演讲者：Name（职位）",
+    "渠道：YouTube 个人频道"
+  ],
+  "core_thesis": "一句话概括视频核心论点。",
+  "chapters": [
+    {
+      "num": "一",
+      "title": "大章节标题",
+      "mermaid": "flowchart LR\n    A[起点] --> B[展开]\n    B --> C[结论]",
+      "tips": [
+        "核心洞见 1",
+        "核心洞见 2"
+      ],
+      "subs": [
+        {"id": "1.1", "title": "细分主题", "range": [0, 10]}
+      ]
+    }
+  ]
+}
