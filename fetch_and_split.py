@@ -9,7 +9,7 @@ import re
 import sys
 from youtube_transcript_api import YouTubeTranscriptApi
 
-VIDEO_ID = sys.argv[1] if len(sys.argv) > 1 else "YM0_8mOaKic"
+VIDEO_ID = sys.argv[1] if len(sys.argv) > 1 else "YOUR_VIDEO_ID"
 OUT_PATH = sys.argv[2] if len(sys.argv) > 2 else "sentences.json"
 
 # 1. Fetch fragments
